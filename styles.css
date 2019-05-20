@@ -1,57 +1,168 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: sans-serif;
-    color: #efefef;
   }
   
-  html { 
-    background: url(./Portfolio-background.jpg) no-repeat center center fixed; 
+  /* html { 
+    background: url(./portfolio-background-final.jpg) no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
+    background-size: cover; */
+  /* } */
+  body {
+    background: url(./portfolio-background-final.jpg) no-repeat center bottom fixed; 
+    /* -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover; */
     background-size: cover;
-  }
-  .main_container {
+    align-self: auto;
+  } 
+ 
+  .main-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     height: 100vh;
+    position: relative;
   }
-  
-  .other_stuff {
+
+  .name {
+    /* content:url(./paul\ back.png); */
+    position: fixed;
+    height: auto;
+    width:100vw;
+    /* align-self: center;
+    justify-self: center; */
+    text-align: center;
+    top: 10%;
+    margin: 0 auto;
+    font-family: 'Viga', sans-serif;
+    font-size: 3.3em;
+    /* font-size: 1.6em; */
+    letter-spacing: -1mm;
+    line-height: 1.6em;
+  }
+
+  h1 {
+    display: inline-block;
+    color: #FF0050;
+  }
+ 
+  /* .name {
+    /* content:url(./paul\ back.png); */
+    /* position: fixed;
+    height: auto; */
+    /* align-self: center;
+    justify-self: center; */
+    /* top: 10%;
+    left: 25%;
+    font-family: 'Viga', sans-serif;
+    font-size: 2em; */
+    /* font-size: 1.6em; */
+    /* color: #FF0050;
+    letter-spacing: -1mm;
+    /* line-height: 1.6em; */ 
+  /* } */
+  /* .name h1 {
+    margin: 0;
+    padding: 0;
+  } */
+
+  .name h2 {
+    margin-top: -35px;
+    display: flex;
+    justify-content: center;
+    font-size: .7em;
+    color: #00ffff;
+    letter-spacing: 0mm;
+  }
+  /* .social{
+    display: flex;
+    justify-content: center;
     width: 100%;
     height: 200px;
-  }
+  } */
   
-  .image_container {
+  .image-container {
     display: flex;
     justify-content: center;
     align-self: flex-end;
     width: 100%;
+    height: 60%;
+    transition: .8s;
+    /* background-color: aqua; */
   }
   
-  .menu_item {
+  .menu-item {
     width: 18%;
     padding: 8px 4px;
     text-align: center;
+    font-family: 'Viga', sans-serif;
+    font-size: 20px;
+    color:#FFFFFF;
+  }
+
+  .nav-link-class {
+
   }
   
   .image {
-    height: 100px;
-    width: 100px;
-    background-color: #483c46;
+    height: 120%;
+    width: auto;
+    /* background-color: #483c46; */
   }
-  
+
   #middle {
+    justify-content: center;
     align-self: flex-end;
+    /* transition: .8s; */
+    content: url(./paul-back.png);
+    animation: disappear 2s; 
+    /* background-image: url(./paul-back.png); */
   }
   
-  #left:hover ~ .image_container #middle {
-    background-color: #beee62;
+  #projects:hover ~ .image-container #middle {
+    /* background-color: #beee62; */
+    content: url(./paul-laptop.png);
+    animation: appear 2s;
+    /* background-image: url(./paul-phone.png); */
+  }
+
+  #bio:hover ~ .image-container #middle {
+    /* background-color: aqua; */
+    content:url(./paul-bio.png);
+    animation: appear 2s;
   }
   
-  #right:hover ~ .image_container #middle {
-    background-color: #f4743b;
+  #contact:hover ~ .image-container #middle {
+    /* background-color: #f4743b; */
+    content:url(./paul-phone.png);
+    animation: appear 2s;
   }
+/* @keyframes disappear{
+  0% {
+    opacity:1;
+  }
+
+  100% {
+    opacity:0;
+  }
+} */
+  @keyframes appear {
+    0% {
+        opacity: 0;
+    }
+   
+    100% {
+        opacity: 1; 
+    }
+  }
+  /* footer {
+    display: flex;
+    flex-direction: flex-end;
+    background-color: #2a2a2a;
+    width: 100%;
+    height:200px;
+  } */
