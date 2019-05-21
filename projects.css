@@ -40,7 +40,7 @@
   }
 
   .name h2 {
-    margin-top: -35px;
+    margin-top: -30px;
     display: flex;
     justify-content: center;
     font-size: .7em;
@@ -50,11 +50,23 @@
   
   .image-container {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-self: flex-end;
     width: 100%;
     height: 60%;
     transition: .8s;
+  }
+  .grid-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit minmax(200px, 1fr));
+      grid-template-rows: repeat(auto-fit minmax(200px, 1fr));
+      grid-gap: 10px;
+  }
+
+  .item {
+    background-color: #C4C4C4;
+    opacity: 0.5;  
+    
   }
   
   .menu-item {
@@ -74,13 +86,11 @@
   }
 
   #middle {
-    justify-content: center;
     align-self: flex-end;
-    content: url(./paul-back.png);
-    animation: disappear 2s; 
+    content: url(./paul-haduken.png);
   }
   
-  #projects:hover ~ .image-container #middle {
+  /* #projects:hover ~ .image-container #middle {
     content: url(./paul-laptop.png);
     animation: appear 2s;
   }
@@ -103,4 +113,4 @@
     100% {
         opacity: 1; 
     }
-  }
+  } */
