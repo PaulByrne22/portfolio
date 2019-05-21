@@ -20,7 +20,6 @@
     position: relative;
     padding: 0 20px;
   }
-
   .name {
     position: fixed;
     height: auto;
@@ -33,12 +32,10 @@
     letter-spacing: -1mm;
     line-height: 1.6em;
   }
-
   h1 {
     display: inline-block;
     color: #FF0050;
   }
-
   .name h2 {
     margin-top: -30px;
     display: flex;
@@ -62,7 +59,6 @@
       grid-template-rows: repeat(auto-fit minmax(200px, 1fr));
       grid-gap: 10px;
   }
-
   .item {
     background-color: #C4C4C4;
     opacity: 0.5;  
@@ -75,26 +71,31 @@
     font-size: 20px;
     color:#FFFFFF;
   }
-
   .nav-link-class {
-
   }
   
   .image {
     height: 120%;
     width: auto;
   }
-
   #middle {
     align-self: flex-end;
     content: url(./paul-haduken.png);
   }
+  #contact:hover {
+      color:#FF0050;
+  }
+  #bio:hover {
+    color:#FF0050;
+}
+  #projects:hover {
+    color:#FF0050;
+}
   
   /* #projects:hover ~ .image-container #middle {
     content: url(./paul-laptop.png);
     animation: appear 2s;
   }
-
   #bio:hover ~ .image-container #middle {
     content:url(./paul-bio.png);
     animation: appear 2s;
@@ -104,7 +105,6 @@
     content:url(./paul-phone.png);
     animation: appear 2s;
   }
-
   @keyframes appear {
     0% {
         opacity: 0;
