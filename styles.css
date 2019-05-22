@@ -104,9 +104,6 @@ h1 {
   color:#FFFFFF;
 }
 
-.nav-link-class {
-
-}
 
 .image {
   height: 120%;
@@ -122,6 +119,7 @@ h1 {
   animation: disappear 2s; 
   /* background-image: url(./paul-back.png); */
 }
+
 
 #projects:hover ~ .image-container #middle {
   /* background-color: #beee62; */
@@ -158,6 +156,7 @@ h1 {
       opacity: 1; 
   }
 }
+
 /* footer {
   display: flex;
   flex-direction: flex-end;
