@@ -80,18 +80,52 @@
   .grid-project {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(125px, 350px));
-    grid-template-rows: auto auto;
-    grid-gap: 40px;
-    justify-content: center;
+    grid-auto-rows: 350px;
+    grid-gap: 20px;
     padding: 5%;
+    /* background-color: gray; */
   }
  .grid-project-items {
-    background-color: #C4C4C4;
-    opacity: 0.5;
-    padding: 25%; 
-    
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    background-color:#FDFDFD;
+    color:#555555;
+    font-family: 'Muli', sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
   } 
+  .grid-project-items .one-stop-image {
+    height: 70%;
+    /* width: 100%; */
+    background-size: cover;
+    background-image: url("./one-stop-home-page.png");
+    background-repeat: no-repeat;
+  }
   
+  .grid-project-items .big-city-escapes {
+    height: 70%;
+    /* width: 100%; */
+    background-size: cover;
+    background-image: url("./big-city-escapes.png");
+    background-repeat: no-repeat;
+  }
+
+  .grid-project-items .one-stop-blog {
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("./one-stop-blog.png");
+    background-repeat: no-repeat; 
+  } 
+
+  .grid-project-items .campervan {
+    height: 70%;
+    width: 100%;
+    background-size: cover;
+    background-image: url("./campervan.png");
+    background-repeat: no-repeat; 
+  } 
   .menu-item {
     text-align: center;
     font-family: 'Viga', sans-serif;
