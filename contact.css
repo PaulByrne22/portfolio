@@ -20,6 +20,11 @@ body {
   position: relative;
   padding: 0 20px;
 }
+
+a {
+  text-decoration: none;
+}
+
 .name {
   position: fixed;
   height: auto;

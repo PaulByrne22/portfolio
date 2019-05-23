@@ -27,7 +27,9 @@ body {
   height: 100vh;
   position: relative;
 }
-
+a {
+  text-decoration: none;
+}
 .name {
   /* content:url(./paul\ back.png); */
   position: fixed;
