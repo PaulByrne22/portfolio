@@ -1,126 +1,164 @@
 * {
-    padding: 0;
-    margin: 0;
-  }
-  
-  
-  body {
-    background: url(./portfolio-background-final.jpg) no-repeat center bottom fixed; 
-    background-size: cover;
-    align-self: auto;
-  } 
- 
-  .main-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    height: 100vh;
-    margin-top: 10px;
-    position: relative;
-    padding: 0 20px;
-  }
-  .name {
-    position: fixed;
-    height: auto;
-    width:100vw;
-    text-align: center;
-    top: 10%;
-    margin: 0 auto;
-    font-family: 'Viga', sans-serif;
-    font-size: 3.3em;
-    letter-spacing: -1mm;
-    line-height: 1.6em;
-  }
-  h1 {
-    display: inline-block;
-    color: #FF0050;
-  }
-  .name h2 {
-    margin-top: -30px;
-    display: flex;
-    justify-content: center;
-    font-size: .7em;
-    color: #00ffff;
-    letter-spacing: 0mm;
-  }
-  
-  .image-container {
-    display: flex;
-    justify-content: flex-start;
-    align-self: flex-end;
-    width: 100%;
-    height: 60%;
-    transition: .8s;
-  }
-  .content-box {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color:rgba(229, 229, 229, 0.4);
-    /* opacity: 50%; */
-    height: 400px;
-    width: 600px;
-    border-radius: 10px;
-  }
-  /* .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit minmax(200px, 1fr));
-      grid-template-rows: repeat(auto-fit minmax(200px, 1fr));
-      grid-gap: 10px;
-  } */
-  .item {
-    background-color: #C4C4C4;
-    opacity: 0.5;  
-    
-  }
-  
-  .menu-item {
-    text-align: center;
-    font-family: 'Viga', sans-serif;
-    font-size: 20px;
-    color:#FFFFFF;
-  }
-  .nav-link-class {
-  }
-  
-  .image {
-    height: 120%;
-    width: auto;
-  }
-  #middle {
-    align-self: flex-end;
-    content: url(./paul-phone.png);
-  }
-  #contact:hover {
-      color:#FF0050;
-  }
-  #bio:hover {
+  padding: 0;
+  margin: 0;
+}
+
+
+body {
+  background: url(./portfolio-background-final.jpg) no-repeat center bottom fixed; 
+  background-size: cover;
+  align-self: auto;
+} 
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  height: 100vh;
+  margin-top: 10px;
+  position: relative;
+  padding: 0 20px;
+}
+.name {
+  position: fixed;
+  height: auto;
+  width:100vw;
+  text-align: center;
+  top: 10%;
+  margin: 0 auto;
+  font-family: 'Viga', sans-serif;
+  font-size: 2.8em;
+  letter-spacing: -1mm;
+  line-height: 1.6em;
+  padding: 5px;
+}
+h1 {
+  display: inline-block;
+  color: #FF0050;
+}
+.name h2 {
+  margin-top: -20px;
+  display: flex;
+  justify-content: center;
+  font-size: .7em;
+  color: rgb(0, 255, 255);
+  letter-spacing: 0mm;
+}
+
+.image-container {
+  display: flex;
+  /* flex-direction: row; */
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  /* height: 60%; */
+  align-self: flex-end;
+  height: 55%;
+  transition: .8s;
+}
+
+.con-box {
+  /* display: flex; */
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  background-color:rgba(229, 229, 229, 1);
+  /* opacity: 50%; */
+  height: 400px;
+  width: 65%;
+  border-radius: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  font-family:'Muli', sans-serif;
+  padding: 30px;
+}
+.con-box h1 {
+  color: #FF0050;
+  font-size: 30px;
+  font-family:'Viga', sans-serif;
+}
+.con-box h2 {
+  color: black;
+  font-size: 20px;
+  font-family:'Viga', sans-serif;
+}
+/* .grid-project {
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(200px, 1fr));
+    grid-template-rows: repeat(auto-fit minmax(200px, 1fr));
+    grid-gap: 40px;
+}  */
+.grid-project {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(125px, 350px));
+  grid-auto-rows: 350px;
+  grid-gap: 20px;
+  padding: 5%;
+  /* background-color: gray; */
+}
+.grid-project-items {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-color:#FDFDFD;
+  color:#555555;
+  font-family: 'Muli', sans-serif;
+  overflow-y: auto;
+  overflow-x: hidden;
+} 
+.grid-project-items .one-stop-image {
+  height: 70%;
+  /* width: 100%; */
+  background-size: cover;
+  background-image: url("./one-stop-home-page.png");
+  background-repeat: no-repeat;
+}
+
+.grid-project-items .big-city-escapes {
+  height: 70%;
+  /* width: 100%; */
+  background-size: cover;
+  background-image: url("./big-city-escapes.png");
+  background-repeat: no-repeat;
+}
+
+.grid-project-items .one-stop-blog {
+  height: 70%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("./one-stop-blog.png");
+  background-repeat: no-repeat; 
+} 
+
+.grid-project-items .campervan {
+  height: 70%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("./campervan.png");
+  background-repeat: no-repeat; 
+} 
+.menu-item {
+  text-align: center;
+  font-family: 'Viga', sans-serif;
+  font-size: 20px;
+  color:#FFFFFF;
+}
+
+.image {
+  height: 100%;
+  width: auto;
+}
+#middle {
+  align-self: flex-end;
+  content: url(./paul-phone.png);
+}
+#contact:hover {
     color:#FF0050;
 }
-  #projects:hover {
-    color:#FF0050;
+#bio:hover {
+  color:#FF0050;
 }
-  
-  /* #projects:hover ~ .image-container #middle {
-    content: url(./paul-laptop.png);
-    animation: appear 2s;
-  }
-  #bio:hover ~ .image-container #middle {
-    content:url(./paul-bio.png);
-    animation: appear 2s;
-  }
-  
-  #contact:hover ~ .image-container #middle {
-    content:url(./paul-phone.png);
-    animation: appear 2s;
-  }
-  @keyframes appear {
-    0% {
-        opacity: 0;
-    }
-   
-    100% {
-        opacity: 1; 
-    }
-  } */
+#projects:hover {
+  color:#FF0050;
+}
