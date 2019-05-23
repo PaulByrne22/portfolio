@@ -12,9 +12,6 @@
 /* } */
 body {
   background: url(./portfolio-background-final.jpg) no-repeat center bottom fixed; 
-  /* -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover; */
   background-size: cover;
   align-self: auto;
 } 
@@ -31,18 +28,14 @@ a {
   text-decoration: none;
 }
 .name {
-  /* content:url(./paul\ back.png); */
   position: fixed;
   height: auto;
   width:100vw;
-  /* align-self: center;
-  justify-self: center; */
   text-align: center;
   top: 10%;
   margin: 0 auto;
   font-family: 'Viga', sans-serif;
   font-size: 3.3em;
-  /* font-size: 1.6em; */
   letter-spacing: -1mm;
   line-height: 1.6em;
 }
@@ -52,26 +45,6 @@ h1 {
   color: #FF0050;
 }
 
-/* .name {
-  /* content:url(./paul\ back.png); */
-  /* position: fixed;
-  height: auto; */
-  /* align-self: center;
-  justify-self: center; */
-  /* top: 10%;
-  left: 25%;
-  font-family: 'Viga', sans-serif;
-  font-size: 2em; */
-  /* font-size: 1.6em; */
-  /* color: #FF0050;
-  letter-spacing: -1mm;
-  /* line-height: 1.6em; */ 
-/* } */
-/* .name h1 {
-  margin: 0;
-  padding: 0;
-} */
-
 .name h2 {
   margin-top: -35px;
   display: flex;
@@ -80,12 +53,7 @@ h1 {
   color: #00ffff;
   letter-spacing: 0mm;
 }
-/* .social{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 200px;
-} */
+
 
 .image-container {
   display: flex;
@@ -94,7 +62,6 @@ h1 {
   width: 100%;
   height: 60%;
   transition: .8s;
-  /* background-color: aqua; */
 }
 
 .menu-item {
@@ -105,7 +72,6 @@ h1 {
   font-size: 20px;
   color:#FFFFFF;
 }
-
 
 .image {
   height: 120%;
@@ -118,18 +84,16 @@ h1 {
   align-self: flex-end;
   /* transition: .8s; */
   content: url(./paul-back.png);
-  animation: disappear 2s; 
+  /* animation: disappear 2s;  */
   /* background-image: url(./paul-back.png); */
 }
 
 
 #projects:hover ~ .image-container #middle {
-  /* background-color: #beee62; */
   content: url(./paul-laptop.png);
   animation: appear 2s;
-  /* background-image: url(./paul-phone.png); */
 }
-/* #contact:hover {
+#contact:hover {
   color:#FF0050;
 }
 #bio:hover {
@@ -137,27 +101,18 @@ color:#FF0050;
 }
 #projects:hover {
 color:#FF0050;
-} */
+}
 
 #bio:hover ~ .image-container #middle {
-  /* background-color: aqua; */
   content:url(./paul-bio.png);
   animation: appear 2s;
 }
 
 #contact:hover ~ .image-container #middle {
-  /* background-color: #f4743b; */
   content:url(./paul-phone.png);
   animation: appear 2s;
 }
-/* @keyframes disappear{
-0% {
-  opacity:1;
-}
-100% {
-  opacity:0;
-}
-} */
+
 @keyframes appear {
   0% {
       opacity: 0;
@@ -167,11 +122,3 @@ color:#FF0050;
       opacity: 1; 
   }
 }
-
-/* footer {
-  display: flex;
-  flex-direction: flex-end;
-  background-color: #2a2a2a;
-  width: 100%;
-  height:200px;
-} */
