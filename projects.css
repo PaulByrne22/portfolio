@@ -121,7 +121,7 @@
     height: 70%;
     /* width: 100%; */
     background-size: cover;
-    background-image: url("./big-city-escapes.png");
+    background-image: url("./big-city-app.svg");
     background-repeat: no-repeat;
   }
 
@@ -140,6 +140,10 @@
     background-image: url("./campervan.png");
     background-repeat: no-repeat; 
   } 
+.project-text {
+  padding: 10px;
+}
+
   .menu-item {
     text-align: center;
     font-family: 'Viga', sans-serif;

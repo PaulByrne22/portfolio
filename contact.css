@@ -20,7 +20,20 @@ body {
   position: relative;
   padding: 0 20px;
 }
+input[type=text] {
+width:auto;
+padding:14px 20px;
+margin: 8px 0px;
+}
 
+.contact-form textarea{
+  width: 50%;
+  height: 100px;
+  padding: 14px 20px;
+}
+}
+
+}
 a {
   text-decoration: none;
 }

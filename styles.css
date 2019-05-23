@@ -129,7 +129,7 @@ h1 {
   animation: appear 2s;
   /* background-image: url(./paul-phone.png); */
 }
-#contact:hover {
+/* #contact:hover {
   color:#FF0050;
 }
 #bio:hover {
@@ -137,7 +137,7 @@ color:#FF0050;
 }
 #projects:hover {
 color:#FF0050;
-}
+} */
 
 #bio:hover ~ .image-container #middle {
   /* background-color: aqua; */
