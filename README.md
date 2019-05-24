@@ -7,9 +7,10 @@ Description:
 •	Functionality / features- On the home page I made it so when you hovered over a certain category in the nav bar it changes the hero image in the centre of the screen to relate to that category.  It was important for me to have the nav bar fixed at all times so the user flow was seamless from page to page, also having calls to action at the bottom of content to prompt employers to contact me. I have also included a grid box on the projects page that wraps to be responsive and links through to the designated projects that I have completed or worked on. 
 
 •	Sitemap - 
-
+![Paul Byrne Portfolio Sitemap](./pb-site-map.png)
 
 •	Screenshots- 
+
 
 •	Target audience – Propective employers
 
@@ -21,17 +22,36 @@ Design process -
 
 I found a really cool picture of a guy in a hoodie looking at a sunset and the milky way in the sky, I envisioned hi resolution photos of myself in the bottom centre of the homepage screen that would be interactive with the navigation bar menu at the top of the screen. 
 
+![design test image 1](./portfolio-background-test.jpg)
+
 To test if this worked I had a colleague take a couple of photos of me in the same pose as the guy and simlar poses I was thinking of for the design and then uploaded them to my computer to test if my vision would work and look decent with the code I was using. 
 
 It did and I got some professional photographs taken and then cut them out in photoshop and then proceeded to start the coding process. 
 
 The original background image I found ended up looking unprofessional in resizing so I sourced a similar image and continued on from there. 
 
-Using my moodboard I tested out the colour scheme and the fonts I would use. I got inspired from the Falls Festival website and three of the colours they used for their headings. These colours worked with my design and I ended up using them in my hover features for when you hover over the navigation bar menu. 
+Using my moodboard I tested out the colour scheme and the fonts I would use. I got inspired from the Falls Festival website and three of the colours they used for their headings. 
+
+![Paul Byrne Porfolio Moodboard](./Paul_Byrne_Portfolio_Moodboard.png)
 
 
-Wireframes- 
-![Paul Byrne Porfolio Wireframes] <img src="./ ")
+These colours worked with my design and I ended up using them in my hover features for when you hover over the navigation bar menu. 
+
+
+Wireframes and Figma Mock Ups- 
+![Paul Byrne Porfolio Homepage](./pb-wireframe1.png)
+![Paul Byrne Porfolio Homepage](./pb-wireframe2.png)
+![Paul Byrne Porfolio Homepage](./pb-wireframe3.png)
+![Paul Byrne Porfolio Homepage](./pb-wireframe4.png)
+![Paul Byrne Porfolio Figma Mock up](./pb-figma1.png)
+![Paul Byrne Porfolio Figma Mock up](./pb-figma2.png)
+![Paul Byrne Porfolio Figma Mock up](./pb-figma3.png)
+![Paul Byrne Porfolio Figma Mock up](./pb-figma4.png)
+![Paul Byrne Porfolio Figma Mock up](./pb-figma5.png)
+![Paul Byrne Porfolio Figma Mock up](./pb-figma6.png)
+![Paul Byrne Porfolio Figma Mock up](./pb-figma7.png)
+
+
 
 Usability considerations - 
 
@@ -40,8 +60,8 @@ I wanted to make sure that the user flow was seamless from page to page and that
 Having a fixed navigation bar at the top of the page at all times and a mobile responsive website was crucial in making sure the user had the option to exit to all available pages at any time. I also wanted to make sure the images worked well when resizing the screen to mobile so having a few media queries and flexbox solved that issue. 
 
 Project plan & timeline - 
+![](./project-plan.png)
 
-Trello boards
 
 Q: Describe key events in the development of the internet from the 1980s to today?
 

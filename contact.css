@@ -22,9 +22,9 @@ body {
   padding: 0 20px;
 }
 input[type=text] {
-width:auto;
-padding:14px 20px;
-margin: 8px 0px;
+  width:auto;
+  padding:14px 20px;
+  margin: 8px 0px;
 }
 
 .contact-form textarea{
@@ -32,14 +32,15 @@ margin: 8px 0px;
   height: 100px;
   padding: 14px 20px;
 }
-}
 
-}
 a {
   text-decoration: none;
   color: inherit;
 }
-
+#soc-image {
+  height: 60px;
+  width: 60px;
+}
 .name {
   position: fixed;
   height: auto;
@@ -53,10 +54,12 @@ a {
   line-height: 1.6em;
   padding: 5px;
 }
+
 h1 {
   display: inline-block;
   color: #FF0050;
 }
+
 .name h2 {
   margin-top: -20px;
   display: flex;
@@ -68,23 +71,36 @@ h1 {
 
 .image-container {
   display: flex;
-  /* flex-direction: row; */
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   width: 100%;
-  /* height: 60%; */
   align-self: flex-end;
   height: 55%;
   transition: .8s;
 }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#FF0050;
+  border-radius: 5px; 
+}
 .con-box {
-  /* display: flex; */
-  /* flex-direction: row;
-  flex-wrap: wrap; */
   background-color:rgba(229, 229, 229, 1);
-  /* opacity: 50%; */
   height: 400px;
   width: 65%;
   border-radius: 10px;
@@ -103,19 +119,13 @@ h1 {
   font-size: 20px;
   font-family:'Viga', sans-serif;
 }
-/* .grid-project {
-    display: grid;
-    grid-template-columns: repeat(auto-fit minmax(200px, 1fr));
-    grid-template-rows: repeat(auto-fit minmax(200px, 1fr));
-    grid-gap: 40px;
-}  */
+
 .grid-project {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(125px, 350px));
   grid-auto-rows: 350px;
   grid-gap: 20px;
   padding: 5%;
-  /* background-color: gray; */
 }
 .grid-project-items {
   width: 100%;
@@ -129,7 +139,6 @@ h1 {
 } 
 .grid-project-items .one-stop-image {
   height: 70%;
-  /* width: 100%; */
   background-size: cover;
   background-image: url("./one-stop-home-page.png");
   background-repeat: no-repeat;
@@ -137,7 +146,6 @@ h1 {
 
 .grid-project-items .big-city-escapes {
   height: 70%;
-  /* width: 100%; */
   background-size: cover;
   background-image: url("./big-city-escapes.png");
   background-repeat: no-repeat;
@@ -181,4 +189,13 @@ h1 {
 }
 #projects:hover {
   color:#FF0050;
+}
+@media screen and (max-width: 828px) {
+  .con-box {
+    width: 100%;
+  }
+  #middle {
+    height: 95%;
+    content: url(./paul-phone.png);
+  }
 }

@@ -63,7 +63,26 @@
     height: 55%;
     transition: .8s;
   }
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#FF0050;
+  border-radius: 5px; 
+}
   .con-box {
     /* display: flex; */
     /* flex-direction: row;
@@ -94,7 +113,7 @@
   }  */
   .grid-project {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(125px, 350px));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-template-rows: minmax(150px, auto);
     grid-gap: 20px;
     padding: 5%;
@@ -173,13 +192,15 @@
 
 @media screen and (max-width: 828px) {
   .con-box {
-    width: 90%;
+    width: 100%;
   }
   #middle {
     height: 95%;
     content: url(./paul-laptop.png);
   }
-  
+  .grid-project {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
 }
   
   /* #projects:hover ~ .image-container #middle {
