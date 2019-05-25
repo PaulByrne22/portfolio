@@ -94,6 +94,7 @@
     border-radius: 10px;
     overflow-y: auto;
     overflow-x: hidden;
+    margin-bottom: 30px;
   }
   .con-box h1 {
     color: #FF0050;

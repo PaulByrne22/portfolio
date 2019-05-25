@@ -1,5 +1,7 @@
 Paul Byrne Portfolio 
 
+Here is the link to netlify: https://agitated-newton-6d718d.netlify.com
+
 Description: 
 
 •	Purpose – The purpose of this website is to show prospective employers my skills, my personality and work history. 
@@ -49,7 +51,7 @@ Wireframes and Figma Mock Ups-
 ![Paul Byrne Porfolio Figma Mock up](./pb-figma4.png)
 ![Paul Byrne Porfolio Figma Mock up](./pb-figma5.png)
 ![Paul Byrne Porfolio Figma Mock up](./pb-figma6.png)
-![Paul Byrne Porfolio Figma Mock up](./pb-figma7.png)
+
 
 
 

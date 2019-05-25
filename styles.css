@@ -124,3 +124,8 @@ color:#FF0050;
       opacity: 1; 
   }
 }
+@media screen and (max-width: 828px) {
+  .menu-item {
+    font-size: 15px;
+  }
+}
